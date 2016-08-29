@@ -11,6 +11,7 @@ Data is encrypted with `EasyAES.encrypt data, secret`
 and decrypted with `EasyAES.derypt data, secret`
 
 Generated secret and encrypted data is `Base64` encoded so it can easily be stored to a file or database.
+Also the secret that both `encrypt` and `decrypt` are getting are `Base64` encoded `yaml` serialization of array [key, iv] (`generate_secret` generates in that that format already)
 
 ## Installation
 

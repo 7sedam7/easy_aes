@@ -1,4 +1,4 @@
-require_relative "easy_aes/version"
+require 'easy_aes/version'
 
 require 'openssl'
 require 'base64'
