@@ -1,6 +1,16 @@
 # EasyAes
 
-TODO: Write a gem description
+EasyAES is a simple gem for easily using encryption and deryption with AES algorithm.
+
+EasyAES can generate the secret with:
+```
+EasyAES.generate_secret
+```
+
+Data is encrypted with `EasyAES.encrypt data, secret`
+and decrypted with `EasyAES.derypt data, secret`
+
+Generated secret and encrypted data is `Base64` encoded so it can easily be stored to a file or database.
 
 ## Installation
 
